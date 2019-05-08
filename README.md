@@ -1,8 +1,8 @@
 # steam_scraper
-Python functions to scrape app data from the Steam store
+Tiny Python library to scrape app data from the Steam store
 
 
-The Steam store may change its HTML structure at any time, so these functions could fail at some point. Run `python -m pytest` to check if they still work.
+The Steam store may change its HTML structure at any time, so these functions could fail at some point. Run `python -m pytest` to check if they still work. Run `pip install .` to install, which will also install lxml, pycurl, and certifi. If on Windows, pycurl and lxml may fail to install, and will need to be installed manually. https://www.lfd.uci.edu/~gohlke/pythonlibs/ has Windows pycurl and lxml binaries, which can be installed with `pip install somelib.whl`. 
 
 
 ## Example
